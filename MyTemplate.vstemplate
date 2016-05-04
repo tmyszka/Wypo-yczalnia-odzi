@@ -1,0 +1,49 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>WypozyczalniaLodzi</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>WypozyczalniaLodzi</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="WypozyczalniaLodzi.csproj" File="WypozyczalniaLodzi.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DaneLogowania.cs">DaneLogowania.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="InterfaceKlienta.cs">InterfaceKlienta.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="InterfaceKlienta.Designer.cs">InterfaceKlienta.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="InterfaceKlienta.resx">InterfaceKlienta.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="InterfacePracownika.cs">InterfacePracownika.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="InterfacePracownika.Designer.cs">InterfacePracownika.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="InterfacePracownika.resx">InterfacePracownika.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Logowanie.cs">Logowanie.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Logowanie.Designer.cs">Logowanie.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Logowanie.resx">Logowanie.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ObslugaBazyDanych.cs">ObslugaBazyDanych.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OknoDialogowe.cs">OknoDialogowe.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OknoDialogowe.Designer.cs">OknoDialogowe.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OknoDialogowe.resx">OknoDialogowe.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OknoGlowne.cs">OknoGlowne.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OknoGlowne.Designer.cs">OknoGlowne.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OknoGlowne.resx">OknoGlowne.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OknoWyboruDaty.cs">OknoWyboruDaty.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OknoWyboruDaty.Designer.cs">OknoWyboruDaty.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OknoWyboruDaty.resx">OknoWyboruDaty.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
